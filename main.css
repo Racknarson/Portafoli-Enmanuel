@@ -8,6 +8,63 @@
 } 
 
 body{
-  background: rgb(22, 144, 201);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgba(172, 199, 213, 0.809);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
 }
+.hehe{
+  background-color: blue;
+}
+
+.navbar{
+  width: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar ul{
+
+display: inline-block;
+}
+
+nav{
+  border-bottom: rgb(27, 130, 170) 1px 
+}
+.navbar ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar a::after{
+  display: inline-block;
+  color: rgba(165, 15, 15, 0.939);
+  font-size: 80%;
+  padding: 0 3px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgba(153, 12, 50, 0.953);
+  justify-content: space-around;
+  padding: 20px;
+  display: flex;
+  
+}
+.navbar a:hover {
+  color: rgba(225, 225, 228, 0.967);
+  background-color: rgba(178, 196, 214, 0.994);
+}
+
+body{
+  background-image: url(http://vanimg.s3.amazonaws.com/awesome-bgs-11.jpg);
+  padding: 20px;
+
+}
+
